@@ -1,0 +1,8 @@
+/학교/학년/반/학생[2]
+//*[@학번="1-1-5"]
+
+//*[@id="account"]/a
+
+//*[@id="NM_NEWSSTAND_HEADER"]/div[2]/a[3]
+<a href="http://sports.news.naver.com/" class="link_direct" data-clk="sports">스포츠</a>
+/html/body/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/a[3]
