@@ -15,7 +15,9 @@ with open("myw3schoolsimage.jpg", "rb") as f:
 with open("테스트.pdf", "rb") as f:
     msg.add_attachment(f.read(), maintype="application", subtype="pdf", filename=f.name)
     
-
+with open("엑셀.xlsx", "rb") as f:
+    msg.add_attachment(f.read(), maintype="application", subtype="octet-stream", filename=f.name)
+    
 with smtplib.SMTP("smtp.gmail.com", 587) as smtp:
     smtp.ehlo()
     smtp.starttls()
